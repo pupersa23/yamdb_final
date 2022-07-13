@@ -8,7 +8,7 @@ services:
     env_file:
       - ./.env
   web:
-    build: ../api_yamdb
+    image: pupersa23/api_yamdb:latest
     restart: always
     volumes:
       - static_value:/app/static/
@@ -26,9 +26,7 @@ services:
 
     volumes:
       - ./nginx/default.conf:/etc/nginx/conf.d/default.conf
-
       - static_value:/var/html/static/
-
       - media_value:/var/html/media/
 
     depends_on:
