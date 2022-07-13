@@ -8,7 +8,7 @@ services:
     env_file:
       - ./.env
   web:
-    image: pupersa23/api_yamdb:latest
+    image: pupersa23/yamdb_final_web:latest
     restart: always
     volumes:
       - static_value:/app/static/
