@@ -11,7 +11,7 @@ SECRET_KEY = os.getenv('SECRET_KEY', default='x+5t+*4$+le4+vyn8c%+kipd!8yxc6-!o3
 
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'www.ryazanov.myftp.org', '158.160.4.215']
+ALLOWED_HOSTS = ['*']
 
 
 INSTALLED_APPS = [
