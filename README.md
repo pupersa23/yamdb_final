@@ -13,7 +13,11 @@
 [![GitHub%20Actions](https://img.shields.io/badge/-GitHub%20Actions-464646?style=flat&logo=GitHub%20actions&logoColor=56C0C0&color=008080)](https://github.com/features/actions)
 [![Yandex.Cloud](https://img.shields.io/badge/-Yandex.Cloud-464646?style=flat&logo=Yandex.Cloud&logoColor=56C0C0&color=008080)](https://cloud.yandex.ru/)
 
-[[Ссылка на развернутый проект]](https://ryazanov.myftp.org)
+# Развёрнутый проект
+
+http://158.160.4.215/admin
+http://158.160.4.215/api
+http://158.160.4.215/redoc
 
 # Проект YaMDb
 Проект YaMDb собирает отзывы (Review) пользователей на произведения (Title). Произведения делятся на категории: "Книги", "Фильмы", "Музыка". Список категорий (Category) может быть расширен.
