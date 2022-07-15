@@ -30,7 +30,7 @@ services:
       - static_value:/var/html/static/
       - media_value:/var/html/media/
       - ./templates/redoc.html:/var/html/redoc/redoc.html
-      - .static/redoc.yaml:/var/html/redoc/redoc.yaml
+      - ./static/redoc.yaml:/var/html/redoc/redoc.yaml
 
     depends_on:
       - web
