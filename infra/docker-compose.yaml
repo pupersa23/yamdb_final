@@ -35,4 +35,9 @@ services:
 
 volumes:
   static_value:
+    driver: local
+    driver_opts:
+      o: bind
+      type: ext4
+      device: /www/static/
   media_value:
