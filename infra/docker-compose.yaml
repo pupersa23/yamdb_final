@@ -39,5 +39,5 @@ volumes:
     driver_opts:
       o: bind
       type: ext4
-      device: /www/static
+      device: /www/static/
   media_value:
