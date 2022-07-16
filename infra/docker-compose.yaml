@@ -39,5 +39,5 @@ volumes:
     driver_opts:
       o: bind
       type: ext4
-      device: home/pupersa23/static
+      device: /static
   media_value:
